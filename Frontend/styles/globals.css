@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fbf5e4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+h1 {
+  font-size: 2.617924em;
+  line-height: 1.214;
+  letter-spacing: -1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: 300;
+  margin: 0 0 .5407911001em;
+  color: #131315;
+}
+
+.site-content {
+  margin-top: 4.5em;
+}
+
+.entry-header{
+  text-align: center;
+  padding: 0 0 5.9968353111em;
+
+}
+p {
+  margin: 0 0 1.41575em;
+}
+
+.col-full {
+  max-width: 66.4989378333em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2.617924em;
+  box-sizing: content-box;
+}
+
+.form-row-first {
+  width: 47.0588235294%;
+  float: left;
+  margin-right: 5.8823529412%;
+  clear: both;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=tel], input[type=url], input[type=password], input[type=search], textarea, .input-text {
+  padding: .6180469716em;
+  background-color: #f2f2f2;
+  color: #43454b;
+  border: 0;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  font-weight: 400;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 13%);
+}
+
+input[type="text"] {
+  background-color: #fff;
+  color: #000;
+}
+
+input::placeholder{
+  color: #43454b;
+}
+
+a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus {
+  outline-color: #7f54b3;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=url]:focus, input[type=password]:focus, input[type=search]:focus, textarea:focus, .input-text:focus {
+  background-color: #ededed;
+}
+.form-row-last {
+  width: 47.0588235294%;
+  float: right;
+  margin-right: 0;
+}
+
+.form-row .button {
+  width: auto;
+}
+
+button, input[type=button], input[type=reset], input[type=submit], .button, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .added_to_cart {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  background-color: #e74e25;
+  border-color: #e74e25;
+  color: #fbf5e4;
+  cursor: pointer;
+  padding: .6180469716em 1.41575em;
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: none;
+  display: inline-block;
+  -webkit-appearance: none;
+}
+
+.checkout_coupon {
+  margin-bottom: 2.617924em;
+}
+
+.fs-md{
+  font-size: 1.5em
+}
+
+.required {
+  border-bottom: 0 !important;
+  color: #e2401c;
+}
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mr-2{
+ margin-right: 30px;
+}
+.mb-3{
+  margin-bottom:1.41575em
+}
+.w-50{
+  width: 50%;
+}
+.ml-3{
+  margin-left: 60px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bg-column{
+  background-color: #f4eedd;
+}
+.inside-data{
+  padding: 1.41575em;
+    vertical-align: middle;
+}
+
+.card-number {
+  background-repeat: no-repeat;
+  background-position: right .6180469716em center;
+  background-size: 31px 20px;
+  background-image: url(https://checkout.cariber.co/wp-content/themes/storefront/assets/images/credit-cards/unknown.svg);
+}
+
+
+.visa {
+  background-image: url(https://checkout.cariber.co/wp-content/themes/storefront/assets/images/credit-cards/visa.svg);
+}
+
+.mastercard {
+  background-image: url(https://checkout.cariber.co/wp-content/themes/storefront/assets/images/credit-cards/mastercard.svg);
+}
+.w-100{
+  width: 100%;
+}
+.content-between{
+  justify-content: space-between;
+}
+.w-48{
+  width: 48%;
+}
+.mt-5{
+  margin-top: 2em;
+}
+
+.mb-5{
+  margin-top: 2em;
+}
+
+button, [type='button'], [type='reset'], [type='submit'] {
+  -webkit-appearance: button;
+  background-color: #e74e25;
+  background-image: none;
+}
